@@ -2,23 +2,12 @@ import requests
 import time
 from lxml import etree
 
-list_of_words = [''' Adultery, 
-                fornication, 
-                uncleanness, 
-                lasciviousness, 
-                Idolatry, 
-                witchcraft, 
-                hatred, 
-                variance, 
-                emulations, 
-                wrath, 
-                strife, 
-                seditions, 
-                heresies, 
-                Envyings, 
-                murders, 
-                drunkenness, 
-                revellings''']
+list_of_words = [''' list,
+                     of,
+                     words,
+                     to,
+                     get,
+                     definition''']
 
 
 for wrd in list_of_words[0].split(',')[1:-1]:
